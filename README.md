@@ -1,12 +1,10 @@
 # Advertising-sales-prediction-ml
 Supervised Machine Learning project using Linear Regression to predict sales based on advertising expenditure.
-Project Overview
+# Project Overview
 
-This project builds a Supervised Machine Learning regression model to predict product sales based on advertising expenditure across TV, Radio, and Newspaper channels.
+This project builds a Supervised Machine Learning regression model to predict product sales based on advertising expenditure across TV, Radio, and Newspaper channels. The objective is to analyze the impact of marketing budget allocation on sales performance and evaluate predictive accuracy using regression metrics.
 
-The objective is to analyze the impact of marketing budget allocation on sales performance and evaluate predictive accuracy using regression metrics.
-
-Problem Statement
+# Problem Statement
 
 Given advertising spend data across multiple channels, we aim to:
 
@@ -20,54 +18,32 @@ Analyze feature influence on predicted sales
 
 Dataset Information
 
-Features:
+# Features:
 
-TV Advertising Budget
+TV Advertising Budget, Radio Advertising Budget, Newspaper Advertising Budget
 
-Radio Advertising Budget
-
-Newspaper Advertising Budget
-
-Target:
-
-Sales
+Target: Sales
 
 The "Campaign" column was removed as it serves only as an identifier.
 
-ML Workflow
+# ML Workflow
 
-Data Cleaning
+Data Cleaning,
+Feature Selection,
+Train-Test Split,
+Linear Regression Model Training,
+Model Evaluation,
+Performance Comparison (Before & After Scaling).
 
-Feature Selection
+# Model Evaluation Metrics
 
-Train-Test Split
+R² Score,Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE)
 
-Linear Regression Model Training
+# Key Insights
 
-Model Evaluation
+Advertising expenditure significantly impacts sales. TV and Radio budgets show stronger predictive influence. Feature scaling does not significantly impact basic Linear Regression performance.
 
-Performance Comparison (Before & After Scaling)
-
-Model Evaluation Metrics
-
-R² Score
-
-Mean Absolute Error (MAE)
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-Key Insights
-
-
-Advertising expenditure significantly impacts sales.
-
-TV and Radio budgets show stronger predictive influence.
-
-Feature scaling does not significantly impact basic Linear Regression performance.
-
-Skills Demonstrated
+# Skills Demonstrated
 
 Supervised Learning
 
